@@ -1,7 +1,8 @@
-scoop bucket add security https://github.com/20142995/scoop-bucket
 scoop bucket add extras
+scoop bucket add security https://github.com/20142995/scoop-bucket
+scoop bucket add minecraft https://github.com/The-Simples/scoop-minecraft
 
-let apps = ['7zip', 'adb', 'aria2', 'caddy', 'Dism-Multi-language', 'doggo', 'ffmpeg', 'gimp', 'git', 'hyperfine', 'jellyfin', 'miniserve', 'mpv', 'neovim', 'nssm', 'oh-my-posh', 'python', 'qview', 'ripgrep', 'rustup-msvc', 'scrcpy', 'sharex', 'unar', 'uv'];
+let apps = ['7zip', 'adb', 'aria2', 'caddy', 'Dism-Multi-language', 'doggo', 'ffmpeg', 'gimp', 'git', 'hyperfine', 'jellyfin', 'miniserve', 'mpv', 'neovim', 'nssm', 'oh-my-posh', 'python', 'qview', 'ripgrep', 'rustup-msvc', 'scrcpy', 'sharex', 'unar', 'uv', ''];
 for app in $apps {
     scoop install $app
 }

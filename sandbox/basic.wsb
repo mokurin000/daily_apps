@@ -1,0 +1,15 @@
+<Configuration>
+  <vGPU>Enable</vGPU>
+  <AudioInput>Disable</AudioInput>
+  <VideoInput>Disable</VideoInput>
+  <MappedFolders>
+  <MappedFolder>
+    <HostFolder>Setup</HostFolder>
+    <SandboxFolder>C:\Setup</SandboxFolder>
+    <ReadOnly>true</ReadOnly>
+  </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>explorer.exe C:\Setup</Command>
+  </LogonCommand>
+</Configuration>

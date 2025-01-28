@@ -1,0 +1,19 @@
+<Configuration>
+  <vGPU>Enable</vGPU>
+  <AudioInput>Enable</AudioInput>
+  <VideoInput>Disable</VideoInput>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>wemeet</HostFolder>
+      <SandboxFolder>C:\wemeet</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <!-- Extract program from WeMeet setup,
+         place some to a folder renamed as version,
+         launcher to 'WeMeet.exe'.
+    -->
+    <Command>C:\wemeet\WeMeet.exe</Command>
+  </LogonCommand>
+</Configuration>
